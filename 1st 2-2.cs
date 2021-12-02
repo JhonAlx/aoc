@@ -23,10 +23,10 @@ namespace aoc2021
                     break;
             }
 
-            for(var i = 0; i < input.Count - 3; i++)
+            for(int i = 0; i < input.Count - 3; i++)
             {
-                var windowOne = input[i] + input[i + 1] + input[i + 2];
-                var windowTwo = input[i + 1] + input[i + 2] + input[i + 3];
+                int windowOne = input[i] + input[i + 1] + input[i + 2];
+                int windowTwo = input[i + 1] + input[i + 2] + input[i + 3];
 
                 if(windowTwo > windowOne)
                     counter++;
