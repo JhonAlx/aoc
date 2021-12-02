@@ -8,7 +8,6 @@ namespace aoc2021
         static void Main(string[] args)
         {
             string line;
-            List<int> input = new List<int>();
             int x = 0, y = 0, aim = 0;
             
             while(true)
