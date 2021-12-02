@@ -6,19 +6,16 @@ namespace aoc2021
     {
         static void Main(string[] args)
         {
-            string line;
             int prev = 0, current, counter = 0;
             bool firstLine = true;
 
             while (true)
             {
-                line = Console.ReadLine();
-
                 try
                 {
-                    current = Int32.Parse(line);
+                    current = Int32.Parse(Console.ReadLine());
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     break;
                 }
