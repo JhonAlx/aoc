@@ -11,7 +11,7 @@ namespace aoc2021
             List<char[]> temp = new List<char[]>();
             int count0 = 0, count1 = 0;
 
-            if (input.Count == 1 || pos == input[0].Length)
+            if (input.Count == 1 || pos == input[0].Length - 1)
                 return input;
 
             for (var j = 0; j < input.Count; j++)
