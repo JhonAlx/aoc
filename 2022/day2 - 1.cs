@@ -17,7 +17,6 @@ namespace aoc
                 var input = line.Split(" ");
                 var status = ""; // (w)in/(d)raw/(l)oss
 
-                Console.WriteLine($"{input[0]} - {input[1]}");
                 switch (input[1])
                 {
                     case "X":
@@ -79,7 +78,6 @@ namespace aoc
 
                         break;
                 }
-                Console.WriteLine(status);
 
                 switch (status)
                 {
@@ -93,8 +91,6 @@ namespace aoc
                         counter += 0;
                         break;
                 }
-
-                Console.WriteLine(counter);
             }
 
             Console.WriteLine(counter);
