@@ -6,11 +6,6 @@ using System.IO;
 
 namespace aoc
 {
-    public class Elf
-    {
-        public int counter { get; set; }
-    }
-
     public class Program
     {
         static void Main(string[] args)
@@ -19,15 +14,6 @@ namespace aoc
 
             foreach (string line in File.ReadAllLines("input.txt"))
             {
-                /**
-                * A X - Rock - 1
-                * B Y - Paper - 2 
-                * C Z - Scissors - 3
-                * Win = 6
-                * Draw = 3
-                * Loss = 0 
-                **/
-
                 var input = line.Split(" ");
                 var status = ""; // (w)in/(d)raw/(l)oss
 
