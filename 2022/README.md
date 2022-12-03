@@ -1,3 +1,3 @@
-# aoc2021
+# aoc2022
 
-Solutions / attempts for Advent of Code 2021
+Solutions / attempts for Advent of Code 2022
