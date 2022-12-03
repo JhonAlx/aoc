@@ -13,8 +13,8 @@ namespace aoc
             foreach (string line in File.ReadAllLines("input.txt"))
             {
                 var first = line.Substring(0, line.Length / 2).ToCharArray();
-                var second = line.Substring(line.Length / 2).ToCharArray();
-                var intersected = first.Intersect(second).Take(1).ToList()[0];
+                var second = line.Substring(line.Length / 2, line.Length / 2).ToCharArray();
+                var intersected = first.Intersect(second).ToList()[0];
 
                 counter += char.IsUpper(intersected) ? (int)intersected - 38 : (int)intersected - 96;
             }
